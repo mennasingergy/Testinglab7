@@ -1,0 +1,15 @@
+{
+  "name": "testinglab6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    app.listen(process.env.PORT || 5000, async () => {
+      console.log("The server is running on")
+      // await connectDB();
+    });
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
